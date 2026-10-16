@@ -1,0 +1,30 @@
+{
+  "name": "utm-link-builder",
+  "version": "1.0.0",
+  "description": "Build, bulk-generate and lint UTM campaign links. TypeScript that runs natively on Node \u2014 no build step.",
+  "type": "module",
+  "bin": {
+    "utm": "src/cli.ts"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.ts",
+    "typecheck": "tsc"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "keywords": [
+    "utm",
+    "google-analytics",
+    "ga4",
+    "campaign-tracking",
+    "marketing",
+    "typescript"
+  ],
+  "author": "Larissa Pellini",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.0"
+  }
+}
